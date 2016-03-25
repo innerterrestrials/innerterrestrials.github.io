@@ -1,0 +1,20 @@
+# Site settings
+title: Inner Terrestrials
+email: info@innerterrestrials.co.uk
+description: On the road for more than 21 years, London's legendary Inner Terrestrials are original pioneers of the UK dub punk sound; a stomping mix of dub, punk, ska, folk and general anarchic danceability. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://innerterrestrials.co.uk" # the base hostname & protocol for your site
+twitter: "@terrestrials"
+#twitter_image: http://networkedplanet.com/assets/images/np-220px.png
+
+# Build settings
+markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    
+
+permalink: /blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: "/blog/page:num/"
+tag_dir: "/blog/tags"

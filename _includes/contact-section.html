@@ -1,0 +1,74 @@
+<section id="contact" class="bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="text-center">The links below all open in new windows/tabs <i class="fas fa-external-link-alt"></i><br/></p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="mailto:{{site.email}}" title="Email Inner Terrestrials"><i class="fas fa-envelope fa-3x mb-3 sr-contact"></i><br />{{site.email}}</a>
+            </p>
+          </div>
+
+          {%- if site.facebook_pagename -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://facebook.com/{{site.facebook_pagename}}" target="_blank" title="Inner Terrestrials on Facebook"><i class="fab fa-facebook-square fa-3x mb-3"></i><br />facebook</a>
+            </p>
+          </div>
+          {%- endif -%}
+
+          {%- if site.twitter_username -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://twitter.com/{{site.twitter_username}}" target="_blank" title="Inner Terrestrials on twitter"><i class="fab fa-twitter-square fa-3x mb-3"></i><br />twitter</a>
+            </p>
+          </div>
+          {%- endif -%}
+
+          {%- if site.instagram_username -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://instagram.com/{{site.instagram_username}}" target="_blank" title="Inner Terrestrials photos on Instagram"><i class="fab fa-instagram fa-3x mb-3"></i><br />instagram</a>
+            </p>
+          </div>
+          {%- endif -%}
+
+          {%- if site.bigcartel -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://{{site.bigcartel}}.bigcartel.com/" target="_blank" title="Inner Terrestrials merchandise on BigCartel"><i class="fas fa-tshirt fa-3x mb-3"></i><br />merch on bigcartel</a>
+            </p>
+          </div>
+          {%- endif -%}
+
+          {%- if site.songkick -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://www.songkick.com/artists/{{site.songkick}}" target="_blank" title="Inner Terrestrials tour dates on Songkick"><i class="far fa-calendar-alt fa-3x mb-3"></i><br />tour dates on songkick</a>
+            </p>
+          </div>
+          {%- endif -%}
+
+          {%- if site.bandcamp -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://{{site.bandcamp}}.bandcamp.com/" target="_blank" title="Inner Terrestrials music on Bandcamp"><i class="fas fa-download fa-3x mb-3"></i><br />downloads on bandcamp</a>
+            </p>
+          </div>
+          {%- endif -%}
+
+          {%- if site.wikipedia -%}
+          <div class="col-lg-3 mr-auto text-center">
+            <p>
+              <a href="https://en.wikipedia.org/wiki/{{site.wikipedia}}" target="_blank" title="Wikipedia page for Inner Terrestrials"><i class="fab fa-wikipedia-w fa-3x mb-3"></i><br />info on wikipedia</a>
+            </p>
+          </div>
+          {%- endif -%}
+          
+        </div>
+      </div>
+    </section>

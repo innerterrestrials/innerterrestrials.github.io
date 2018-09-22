@@ -1,0 +1,12 @@
+
+body{
+	background: #000;
+	}
+
+.home-splash {
+  background: #000 url('/assets/images/new_morning_paris.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}

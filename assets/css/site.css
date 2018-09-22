@@ -1,0 +1,163 @@
+
+body{
+	background: #000;
+    font-family: 'Montserrat', sans-serif;
+	}
+
+.it-head img {
+  height:7rem;
+  max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .it-head img {
+        height:3rem;
+    }
+}
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.navbar-nav li a {
+	font-weight:300;
+	text-transform: uppercase;
+}
+.navbar-logo {
+  height:40px;
+}
+
+.bg-blk {
+  background-color: #000 !important;
+}
+.bg-dark p {
+  color:#fff;
+}
+
+.main {
+  margin-top: 4em;
+}
+
+.alert {
+  text-align: center;
+}
+
+.bg-primary a,
+.bg-primary a:hover,
+.bg-primary a:visited {
+  color:#000;
+}
+
+ul.soc {
+  list-style: none;
+  display: inline;
+}
+
+
+section.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../images/mastheads/new_morning_paris_theokoppen.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+section.masthead hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.masthead h1 {
+  font-size: 2rem;
+}
+
+section.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  section.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  section.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.masthead h1 {
+    font-size: 4rem;
+  }
+}
+.gigs section.masthead {
+  background-image: url("../images/mastheads/pacobirthday_london_theokoppen.jpg");
+}
+.merch section.masthead {
+  background-image: url("../images/mastheads/jay_zikenstock_interludephotography.jpg");
+}
+.downloads section.masthead {
+  background-image: url("../images/mastheads/demoalbum_francoisboutemy.jpg");
+}
+.videos section.masthead {
+  background-image: url("../images/mastheads/new_morning-paris_christinepratt.jpg");
+}
+.discog section.masthead {
+  background-image: url("../images/mastheads/nantes_christinepratt.jpg");
+}
+.lyrics section.masthead {
+  background-image: url("../images/mastheads/new_morning_paris_theokoppen2.jpg");
+}
+.contact section.masthead {
+  background-image: url("../images/mastheads/jay_bologna_benedettabassi.jpg");
+}
+.credits section.masthead {
+  background-image: url("../images/mastheads/equinox_benadettabassi.jpg");
+}
+.not-found section.masthead {
+  background-image: url("../images/mastheads/fiddlers_benedettabassi.jpg");
+}
+/*
+franben_zikenstock_interludephotography
+
+  j_pacobirthday_tottenham_theokoppen
+  
+  */
+
+
+.text-bg {
+  background: rgba(0, 0, 0, 0.7); 
+}
+.alt-text-bg {
+  background: rgba(208, 48, 44, 0.7);
+}
+
+.discog h3 {
+  margin-top: 0.2em;
+  font-size:1.5rem;
+}
+
+.discog .text-bg {
+  border-bottom: 4px solid rgba(208, 48, 44, 0.7);
+}
+.discog .alt-text-bg {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
+}
+
+.album-box {
+  max-width: 300px;
+}
+.gap-left {
+  margin-left:1rem;
+}

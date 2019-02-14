@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  {%- include head.html -%}
+
+  <body>
+    {%- include header.html -%}
+
+
+  <section>
+      <div class="container">
+
+          <div class="row">
+            <div class="col-lg-8 mx-auto" style="color:#fff;">
+              <h2>{{page.title}}</h2>
+              {{ content }}
+
+            </div>
+             <div class="col-lg-8 mx-auto">
+		    	<p><a href="{{site.url}}/lyrics/" title="Back to lyrics table of contents">Back to Lyrics page</a></p>
+		    </div>
+          </div>
+
+          
+            
+
+      </div>
+  </section>
+
+  
+    {%- include contact-section.html -%}
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}"  xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+  {%- include head.html -%}
+
+  <body id="page-top" class="{{ page.slug }}">
+  
+   {%- include header.html -%}
+
+  
+    {{ content }}
+
+    
+    {%- include contact-section.html -%}
+    {%- include footer.html -%}
+  </body>
+
+</html>

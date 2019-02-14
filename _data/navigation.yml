@@ -1,0 +1,16 @@
+- name: Home
+  link: /
+- name: Tour Dates
+  link: /gigs/
+- name: Shop
+  link: /merch/
+- name: Digital Albums
+  link: /downloads/
+- name: Videos
+  link: /videos/
+- name: Discography
+  link: /discography/
+- name: Lyrics
+  link: /lyrics/
+- name: Contact
+  link: /contact/
